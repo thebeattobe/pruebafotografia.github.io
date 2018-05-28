@@ -1,0 +1,26 @@
+body {
+	font-family: verdana;
+	width: 100%;
+	margin-left: 0%;
+}
+
+ #cabecera {
+	padding: 3vh 1vw;
+	margin-top: -8px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color: #5b7989;
+	color: white;
+	text-shadow: 0 0 2px #02010a;
+
+}
+
+	#enlaces {
+	padding-right: 20vh;
+	text-align: right;
+}
+	#enlaces a{
+	color: white;
+	text-shadow: 0 0 2px #02010a;
+	padding:auto;
+}
