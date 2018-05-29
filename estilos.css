@@ -1,5 +1,5 @@
 body {
-	font-family: verdana;
+	font-family: 'Indie Flower', cursive;
 	width: 100%;
 	margin-left: 0%;
 }
@@ -18,6 +18,7 @@ body {
 	#enlaces {
 	padding-right: 20vh;
 	text-align: right;
+	
 }
 	#enlaces a{
 	color: white;
