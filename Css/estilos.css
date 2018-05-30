@@ -12,15 +12,9 @@ body {
 	background-color: #5b7989;
 	color: white;
 	text-shadow: 0 0 2px #02010a;
-
 }
 
-	#enlaces {
-	padding-right: 20vh;
-	text-align: right;
-}
-	#enlaces a{
-	color: white;
-	text-shadow: 0 0 2px #02010a;
-	padding:auto;
+.container {
+	width: 250px;
+	height: auto;
 }
