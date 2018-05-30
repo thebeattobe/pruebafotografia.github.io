@@ -9,19 +9,27 @@ body {
 	margin-top: -8px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+	-moz-border-top-left-radius:10px;
+	-moz-border-top-right-radius:10px;
+	-webkit-border-top-left-radius:10px;
+	-webkit-border-top-right-radius:10px;
 	background-color: #5b7989;
 	color: white;
 	text-shadow: 0 0 2px #02010a;
-
 }
 
 	#enlaces {
 	padding-right: 20vh;
 	text-align: right;
-	
+
 }
 	#enlaces a{
 	color: white;
 	text-shadow: 0 0 2px #02010a;
 	padding:auto;
 }
+
+ img {
+	 width: 600px;
+	 height: auto;
+ }
