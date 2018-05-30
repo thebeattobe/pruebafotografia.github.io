@@ -14,7 +14,11 @@ body {
 	text-shadow: 0 0 2px #02010a;
 }
 
-.container {
-	width: 250px;
+#contenido img {
+	width: 700px;
 	height: auto;
+	margin-top: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
