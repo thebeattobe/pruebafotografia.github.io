@@ -17,7 +17,7 @@ body {
 	text-shadow: 0 0 2px #02010a;
 }
 
- #encabezado a{
+ .enlaces {
 	text-align: left;
 	color: white;
 	text-shadow: 0 0 2px #02010a;
@@ -33,9 +33,10 @@ body {
 	width: 700px;
 	height: auto;
 	margin-top: 15px;
+}
+#contenido img {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 }
 
 #contenido {
