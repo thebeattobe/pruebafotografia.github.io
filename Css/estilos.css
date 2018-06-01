@@ -17,21 +17,32 @@ body {
 	text-shadow: 0 0 2px #02010a;
 }
 
- .enlaces {
-	text-align: left;
+ .enlaces a{
 	color: white;
 	text-shadow: 0 0 2px #02010a;
+	font-size: 20px;
+	float: right;
 }
 
 .container1 {
 	width: 100%;
+	height: auto;
   padding: 100px;
-	background-color: #82c3a6
+	background-color: #82c3a6;
 }
 
 .container1 img{
-	width: 750px;
-	height: auto;
-	display: block;
-	margin: auto;
+	width: 80%;
+	height: 10%;
+
+}
+
+.container2 {
+	width: 100%;
+  padding: 100px;
+	background-color: #d5c75f;
+}
+
+.container2 img {
+	width: 550px;
 }
