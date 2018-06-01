@@ -26,14 +26,14 @@ body {
 }
 
 .container1 {
-	height: 50%;
-  padding: 80px;
+	height: 400px;
+  padding: 20px;
 	background-color: #82c3a6;
 }
 
 .container1 img{
-	width: 80%;
-	height: 50%;
+	width: 50%;
+	height: 100%;
 }
 
 .container2 {
