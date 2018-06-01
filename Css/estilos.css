@@ -1,6 +1,6 @@
 body {
 	font-family: 'Indie Flower', cursive;
-	width: 100%;
+	height: 100%;
 	margin-left: 0%;
 }
 
@@ -10,19 +10,28 @@ body {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	background-color: #5b7989;
+	color: white;
 }
 
- #encabezado h1 {
-	color: white;
-	text-shadow: 0 0 2px #02010a;
-}
+ nav {
+	 height: 100%;
+ }
 
- .enlaces a{
-	color: white;
-	text-shadow: 0 0 2px #02010a;
-	font-size: 20px;
+ul {
+	list-style-type: none;
+	margin: 0px;
+	overflow: hidden;
+	height: 100%;
+}
+li a{
 	float: right;
-	padding: 0 0 20% 1%;
+	display: block;
+	margin: 0px 5px;
+	padding: 15px 0px;
+	height: 100%;
+	color: white;
+	text-shadow: 0 0 2px #02010a;
+	font-size: 25px;
 }
 
 .container1 {
@@ -37,8 +46,8 @@ body {
 }
 
 .container2 {
-	width: 100%;
-  padding: 100px;
+	height: 400px;
+  padding: 20px;
 	background-color: #d5c75f;
 }
 
