@@ -26,20 +26,19 @@ body {
 #contenido {
 	width: 100%;
   padding: 100px;
-	background-color: #82c3a6
+	background-color: #82c3a6;
 }
 
 #contenido img {
 	width: 700px;
 	height: auto;
 	margin-top: 15px;
-}
-.container1 {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 }
 
-#contenido {
-	background-color: #82c3a6
+#contenido2 {
+	width: 100%;
+  padding: 100px;
+	background-color: #d5c75f;
 }
