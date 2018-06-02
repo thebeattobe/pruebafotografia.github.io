@@ -3,17 +3,18 @@ body {
 	height: 100%;
 	margin-left: 0%;
 }
-
  header {
-	padding: 3vh 1vw;
-	margin-top: -8px;
+	height: 100px;
+	margin-top: -20px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	background-color: #5b7989;
-	color: white;
 }
-
- nav {
+#encabezado h1 {
+	color: white;
+	text-shadow: 2px 0px #02010a;
+}
+nav {
 	 height: 100%;
  }
 
