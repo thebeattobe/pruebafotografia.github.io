@@ -2,10 +2,14 @@ body {
 	font-family: 'Indie Flower', cursive;
 	height: 100%;
 	margin-left: 0%;
+	display: flex;
+	flex-direction: row;
 }
  header {
 	height: 100px;
-	margin-top: -20px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	background-color: #5b7989;
@@ -13,6 +17,7 @@ body {
 #encabezado h1 {
 	color: white;
 	text-shadow: 2px 0px #02010a;
+	padding: 20px;
 }
 nav {
 	 height: 100%;
@@ -20,7 +25,7 @@ nav {
 
 ul {
 	list-style-type: none;
-	margin: 0px;
+	margin: 5px;
 	overflow: hidden;
 	height: 100%;
 }
@@ -28,7 +33,7 @@ li a{
 	float: right;
 	display: block;
 	margin: 0px 5px;
-	padding: 15px 0px;
+	padding: inherit;
 	height: 100%;
 	color: white;
 	text-shadow: 0 0 2px #02010a;
