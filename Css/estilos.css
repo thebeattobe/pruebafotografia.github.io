@@ -2,7 +2,9 @@ body {
 	font-family: 'Indie Flower', cursive;
 	height: 100%;
 	margin-left: 0%;
-	display: flex;
+}
+
+#contenido section{
 	flex-direction: row;
 }
  header {
