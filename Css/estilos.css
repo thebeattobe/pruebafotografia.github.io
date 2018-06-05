@@ -6,7 +6,7 @@ body {
 
 .container {
 	display: flex;
-	flex-flow: column;
+	flex-flow: column wrap;
 }
 .container1 {
 	background-color: #5b7989;
@@ -18,7 +18,15 @@ body {
 	width: 700px;
 	height: auto;
 	margin-top: 15px;
+	display: block;
+	margin: 0 auto;
+	padding: 25px;
 }
 .container3 {
 background-color: #d5c75f;
+}
+.container3 img{
+	width: 520px;
+	height: auto;
+	padding: 25px;
 }
