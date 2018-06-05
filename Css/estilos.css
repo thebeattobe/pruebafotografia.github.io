@@ -6,10 +6,17 @@ body {
 
 .container {
 	display: flex;
-	flex-flow: column wrap;
+	flex-flow: column;
 }
 .container1 {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 	background-color: #5b7989;
+}
+.container1 h1{
+	color: white;
+	text-shadow: 2px 0px #02010a;
+	padding: 20px;
 }
 .container2 {
 	background-color:  #82c3a6;
