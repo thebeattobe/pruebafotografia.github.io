@@ -6,7 +6,7 @@ body {
 
 .container {
 	display: flex;
-	flex-flow: column;
+	flex-direction: column;
 }
 .container1 {
 	border-top-left-radius: 10px;
@@ -38,9 +38,22 @@ body {
 }
 .container3 {
 background-color: #d5c75f;
+flex-basis: 400px;
 }
 .container3 img{
-	width: 520px;
+	width: 100px;
 	height: auto;
 	padding: 25px;
+}
+
+.container4 {
+flex-basis: 400px;
+}
+.container4 img{
+	width: 100px;
+	height: auto;
+	padding: 25px;
+}
+.container {
+	flex-wrap: wrap;
 }
