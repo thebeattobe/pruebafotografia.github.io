@@ -38,7 +38,7 @@ body {
 }
 .container3 {
 background-color: #d5c75f;
-flex-basis: 400px;
+float: left;
 }
 .container3 img{
 	width: 100px;
@@ -47,13 +47,13 @@ flex-basis: 400px;
 }
 
 .container4 {
-flex-basis: 400px;
+float: right;
 }
 .container4 img{
 	width: 100px;
 	height: auto;
 	padding: 25px;
 }
-.container {
-	flex-wrap: wrap;
+.containers {
+	display: flex;
 }
