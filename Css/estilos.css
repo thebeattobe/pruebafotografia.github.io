@@ -37,23 +37,21 @@ body {
 	padding: 25px;
 }
 .container3 {
-background-color: #d5c75f;
 float: left;
 }
 .container3 img{
-	width: 100px;
-	height: auto;
-	padding: 25px;
+	width: 80%;
+	padding: 10%;
 }
 
 .container4 {
 float: right;
 }
 .container4 img{
-	width: 100px;
-	height: auto;
-	padding: 25px;
+	width: 80%;
+	padding: 10%;
 }
 .containers {
 	display: flex;
+	background-color: #d5c75f;
 }
