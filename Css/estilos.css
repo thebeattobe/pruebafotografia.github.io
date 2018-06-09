@@ -38,17 +38,38 @@ body {
 }
 .container3 {
 float: left;
+border: 1px;
 }
-.container3 img{
+.imagenizq img{
 	width: 80%;
+	width: 600px;
+	height: auto;
+	border-style: solid;
+	border-width: 2px;
+	box-shadow: 5px 5px #82c3a6;
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+    -ms-transition: -ms-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+.imagenizq {
 	padding: 10%;
+}
+.imagenizq:hover img{
+	transform:rotate(10deg);
+	-ms-transform:rotate(10deg);
+	-webkit-transform:rotate(10deg);
 }
 
 .container4 {
 float: right;
+border: 1px;
 }
-.container4 img{
+.imagender img{
 	width: 80%;
+	width: 600px;
+	height: auto;
+}
+.imagender {
 	padding: 10%;
 }
 .containers {
