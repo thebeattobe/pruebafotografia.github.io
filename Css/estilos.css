@@ -64,14 +64,29 @@ border: 1px;
 float: right;
 border: 1px;
 }
+.imagender {
+	padding: 10%;
+}
 .imagender img{
 	width: 80%;
 	width: 600px;
 	height: auto;
+	border-style: solid;
+	border-width: 2px;
+	box-shadow: 5px 5px #82c3a6;
+	transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
 }
-.imagender {
-	padding: 10%;
+.imagender:hover img{
+transform: translate(20px, -5px);
+  -ms-transform: translate(20px, -5px);
+  -webkit-transform: translate(20px, -5px);
+  -moz-transform: translate(20px, -5px);
 }
+
+
 .containers {
 	display: flex;
 	background-color: #d5c75f;
