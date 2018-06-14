@@ -85,9 +85,10 @@ transform: translate(20px, -5px);
   -webkit-transform: translate(20px, -5px);
   -moz-transform: translate(20px, -5px);
 }
-
-
 .containers {
 	display: flex;
 	background-color: #d5c75f;
+}
+.containers p {
+	font-size: 20px;
 }
