@@ -103,4 +103,10 @@ footer {
 	-webkit-column-count: 4;
 	-moz-column-count: 4;
 	 column-count: 4;
+
+}
+.cuatro-columnas ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
