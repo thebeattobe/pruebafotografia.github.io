@@ -1,0 +1,27 @@
+body {
+	font-family: 'Dancing Script', cursive;
+	height: 100%;
+	margin-left: 0%;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+}
+navbar {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color: #5b7989;
+}
+navbar > h1{
+	color: white;
+	text-shadow: 2px 0px #02010a;
+	padding-left: 25px;
+  font-size: 40px;
+}
+.enlaces{
+	float: right;
+	margin: 0px 12px;
+	color: white;
+	text-shadow: 0 0 2px #02010a;
+	font-size: 25px;
+}
