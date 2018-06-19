@@ -93,14 +93,15 @@ transform: translate(20px, -5px);
 	font-size: 20px;
 }
 footer {
+	height: 150px;
 	padding: 10px;
 	background-color: #C6d5c5;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
-
+	display: flex;
+	flex-flow: row wrap;
 }
-.cuatro-columnas {
-	-webkit-column-count: 4;
-	-moz-column-count: 4;
-	 column-count: 4;
-}
+footer .columna{
+ width: 25%;
+ box-sizing: border-box;
+ padding: 0 15px;
