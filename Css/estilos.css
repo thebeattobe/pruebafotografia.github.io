@@ -16,11 +16,11 @@ body {
 .container1 h1{
 	color: white;
 	text-shadow: 2px 0px #02010a;
-	padding: 20px;
+	padding: 10px;
 }
 .enlaces{
 	float: right;
-	margin: 0px 5px;
+	margin: 0px 12px;
 	color: white;
 	text-shadow: 0 0 2px #02010a;
 	font-size: 25px;
@@ -59,7 +59,6 @@ border: 1px;
 	-ms-transform:rotate(10deg);
 	-webkit-transform:rotate(10deg);
 }
-
 .container4 {
 float: right;
 border: 1px;
