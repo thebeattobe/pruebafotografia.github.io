@@ -25,14 +25,27 @@ navbar > h1{
 	text-shadow: 0 0 2px #02010a;
 	font-size: 25px;
 }
-.container {
-	background-color:  #d5c75f;
+.containers {
+	display: flex;
+	background-color: #d5c75f;
 }
 .containers img{
-	width: 350px;
+	width: 450px;
 	height: auto;
 	margin-top: 15px;
 	display: block;
 	margin: 0 auto;
-	padding: 25px;
+	padding: 35px;
+}
+.container1 {
+float: left;
+border: 1px;
+}
+.container1 {
+float: center;
+border: 1px;
+}
+.container1 {
+float: right;
+border: 1px;
 }
