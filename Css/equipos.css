@@ -49,3 +49,9 @@ border: 1px;
 float: right;
 border: 1px;
 }
+.imagen1 {
+	filter: blur(10px);
+}
+.imagen2, .imagen4, .imagen6{
+	filter: grayscale(100%);
+}
