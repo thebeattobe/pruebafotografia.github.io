@@ -1,7 +1,7 @@
 body {
 	font-family: 'Dancing Script', cursive;
 	height: 100%;
-	margin-left: 0%;
+	margin: 0;
 }
 
 .container {
@@ -105,13 +105,3 @@ footer .columna{
  box-sizing: border-box;
  padding: 0 15px;
  }
-@media (min-width: 1025px) and (max-width: 1280px){
-	.container {
-		max-width: 900px;
-	}
-}
-@media (min-width: 481px) and (max-width: 767px){
-	.container {
-		max-width: 900px;
-	}
-}
