@@ -4,7 +4,7 @@ body {
 	margin: 0;
 }
 
-#container {
+#contenido {
 	display: flex;
 	flex-direction: column;
 	max-width: 100%;
@@ -28,10 +28,10 @@ navbar > h1{
 	text-shadow: 0 0 2px #02010a;
 	font-size: 25px;
 }
-.container2 {
+#container2 {
 	background-color: #82c3a6;
 }
-.container2 img{
+#container2 img{
 	width: 700px;
 	height: auto;
 	margin-top: 15px;
@@ -87,11 +87,11 @@ transform: translate(20px, -5px);
   -webkit-transform: translate(20px, -5px);
   -moz-transform: translate(20px, -5px);
 }
-.containers {
+#containers {
 	display: flex;
 	background-color: #d5c75f;
 }
-.containers p {
+#containers p {
 	font-size: 20px;
 }
 footer {
@@ -110,11 +110,14 @@ footer .columna{
  }
  @media (min-width: 900px) {
 
-	.container {
+	#container {
 		width: 900px;
 		margin: auto;
 	}
-	.containers .container3 .container4 {
+	#containers .container3 {
+		width: 50%;
+	}
+	#containers .container4 {
 		width: 50%;
 	}
 	footer {
