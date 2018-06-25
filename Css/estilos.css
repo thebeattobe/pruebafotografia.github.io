@@ -4,9 +4,12 @@ body {
 	margin: 0;
 }
 
-.container {
+#container {
 	display: flex;
 	flex-direction: column;
+	max-width: 100%;
+	width: 100%;
+	margin: auto;
 }
 navbar {
 	border-top-left-radius: 10px;
@@ -105,3 +108,18 @@ footer .columna{
  box-sizing: border-box;
  padding: 0 15px;
  }
+ @media (min-width: 900px) {
+
+	.container {
+		width: 900px;
+		margin: auto;
+	}
+	.containers .container3 .container4 {
+		width: 50%;
+	}
+	footer {
+		width: 50%;
+		padding: 10px;
+		margin: auto;
+	}
+}
