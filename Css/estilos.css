@@ -122,15 +122,12 @@ footer .columna{
 		box-sizing: border-box;
 		text-align: left;
 	}
-	#containers .container3 {
+	#containers .container3, .container4 {
 		width: 50%;
 	}
-	#containers .container4 {
-		width: 50%;
-	}
+
 	footer {
 		width: 100%;
-		padding: 10px;
 		margin: auto;
 	}
 }
