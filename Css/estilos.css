@@ -2,6 +2,7 @@ body {
 	font-family: 'Dancing Script', cursive;
 	height: 100%;
 	margin: 0;
+	background-color: #02010a;
 }
 
 #contenido {
@@ -9,14 +10,15 @@ body {
 	flex-direction: column;
 	max-width: 100%;
 	width: 100%;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
-navbar {
+#cabecera {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	background-color: #5b7989;
 }
-navbar > h1{
+header h1{
 	color: white;
 	text-shadow: 2px 0px #02010a;
 	padding: 10px;
@@ -112,7 +114,13 @@ footer .columna{
 
 	#container {
 		width: 900px;
-		margin: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#cabecera {
+		width: 100%;
+		box-sizing: border-box;
+		text-align: left;
 	}
 	#containers .container3 {
 		width: 50%;
@@ -121,7 +129,7 @@ footer .columna{
 		width: 50%;
 	}
 	footer {
-		width: 50%;
+		width: 100%;
 		padding: 10px;
 		margin: auto;
 	}
