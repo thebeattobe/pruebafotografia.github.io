@@ -133,6 +133,9 @@ footer .columna{
 	width: 100%;
 	flex-flow: wrap;
 	}
+	#container2 img{
+		width: 80%;
+	}
 	footer .columna {
 		width: 25%;
 		padding: 10px;
