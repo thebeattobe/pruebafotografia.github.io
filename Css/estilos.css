@@ -110,7 +110,7 @@ footer .columna{
  box-sizing: border-box;
  padding: 0 15px;
  }
- @media (min-width: 900px) {
+ @media (max-width: 900px) {
 
 	#container {
 		width: 900px;
@@ -122,12 +122,24 @@ footer .columna{
 		box-sizing: border-box;
 		text-align: left;
 	}
-	#containers .container3, .container4 {
+	navbar {
 		width: 50%;
+		text-align: center;
 	}
-
-	footer {
+	#containers img{
 		width: 100%;
-		margin: auto;
+		}
+	#containers {
+	width: 100%;
+	flex-flow: wrap;
+	}
+	footer .columna {
+		width: 25%;
+		padding: 10px;
+	}
+	header navbar, header h1 {
+		width: 50%;
+		box-sizing: border-box;
+		text-align: left;
 	}
 }
