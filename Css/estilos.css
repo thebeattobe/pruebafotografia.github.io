@@ -136,8 +136,14 @@ footer .columna{
 	#container2 img{
 		width: 80%;
 	}
+	footer {
+		display:flex;
+		flex-direction:column;
+	}
+
 	footer .columna {
-		width: 25%;
+		width: 100%;
+		height: auto;
 		padding: 10px;
 	}
 	header navbar, header h1 {
