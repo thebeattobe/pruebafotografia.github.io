@@ -145,6 +145,7 @@ footer .columna{
 		width: 100%;
 		height: auto;
 		padding: 10px;
+		flex-direction: column;
 	}
 	header navbar, header h1 {
 		width: 50%;
