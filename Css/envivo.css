@@ -30,11 +30,11 @@ header h1{
 	text-shadow: 0 0 2px #02010a;
 	font-size: 25px;
 }
-.containers {
+#containers {
 	display: flex;
 	background-color: #d5c75f;
 }
-.containers img{
+#containers img{
 	width: 450px;
 	height: auto;
 	margin-top: 15px;
@@ -77,3 +77,33 @@ footer .columna{
  box-sizing: border-box;
  padding: 0 15px;
  }
+
+@media (max-width: 900px){
+	#container {
+		width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#cabecera {
+		width: 100%;
+		box-sizing: border-box;
+		text-align: left;
+	}
+	navbar {
+		width: 50%;
+		text-align: center;
+	}
+	header navbar, header h1 {
+		width: 50%;
+		box-sizing: border-box;
+		text-align: left;
+	}
+	#containers img{
+		width: 80%;
+		}
+	#containers {
+		width: 100%;
+		flex-flow: wrap;
+	}
+
+}
