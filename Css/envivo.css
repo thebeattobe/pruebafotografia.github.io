@@ -19,7 +19,8 @@ body {
 header h1{
 	color: white;
 	text-shadow: 2px 0px #02010a;
-	padding: 10px;
+	padding-left: 1%;
+	font-size: 65px;
 }
 .enlaces{
 	float: right;
@@ -88,6 +89,7 @@ footer .columna{
      flex-basis: 0;
      flex-grow: 1;
      padding-left: 5%;
+		  padding-bottom: 2%;
  }
 
  @media screen and (max-width: 900px) {
@@ -117,6 +119,9 @@ footer .columna{
 		width: 50%;
 		box-sizing: border-box;
 		text-align: left;
+	}
+	header h1 {
+		font-size: 60px;
 	}
 }
 
