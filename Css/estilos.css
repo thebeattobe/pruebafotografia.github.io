@@ -112,10 +112,16 @@ footer .columna{
  @media (max-width: 900px) {
  */
  footer {
- display: flex;
- color: black;
- border-radius: 0 0 10px 10px;
- background: #C6d5c5;
+     display: flex;
+     color: black;
+     border-radius: 0 0 10px 10px;
+     background: #C6d5c5;
+ }
+
+ footer>div {
+     flex-basis: 0;
+     flex-grow: 1;
+     padding-left: 5%;
  }
 
  @media screen and (max-width: 900px) {
@@ -144,20 +150,16 @@ footer .columna{
 	#container2 img{
 		width: 80%;
 	}
-	footer {
-		display:flex;
-		flex-direction:column;
-	}
-
-	footer .columna {
-		width: 100%;
-		height: auto;
-		padding: 10px;
-		flex-direction: column;
-	}
 	header navbar, header h1 {
 		width: 50%;
 		box-sizing: border-box;
 		text-align: left;
 	}
+}
+
+@media screen and (max-width: 899px) {
+
+  footer {
+        flex-direction: column;
+    }
 }
