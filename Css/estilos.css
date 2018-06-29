@@ -96,7 +96,7 @@ transform: translate(20px, -5px);
 #containers p {
 	font-size: 20px;
 }
-footer {
+/*footer {
 	height: 150px;
 	padding: 10px;
 	background-color: #C6d5c5;
@@ -111,6 +111,15 @@ footer .columna{
  padding: 0 15px;
  }
  @media (max-width: 900px) {
+ */
+ footer {
+ display: flex;
+ color: black;
+ border-radius: 0 0 10px 10px;
+ background: #C6d5c5;
+ }
+
+ @media screen and (max-width: 900px) {
 
 	#container {
 		width: 900px;
