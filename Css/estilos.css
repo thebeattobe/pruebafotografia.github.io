@@ -32,13 +32,16 @@ header h1{
 #container2 {
 	background-color: #82c3a6;
 }
-#container2 img{
+
+.imagencentro img{
+	padding: 3%;
+	border-style: solid;
+	box-shadow: 5px 5px #02010a;
 	width: 700px;
 	height: auto;
 	margin-top: 15px;
 	display: block;
 	margin: 0 auto;
-	padding: 25px;
 }
 .container3 {
 float: left;
