@@ -35,13 +35,11 @@ header h1{
 
 .imagencentro {
 	padding: 5%;
-	border-style: solid;
 	width: 700px;
 	height: auto;
 	margin-top: 15px;
 	display: block;
 	margin: 0 auto;
-	box-shadow: 5px 5px #02010a;
 }
 .container3 {
 float: left;
