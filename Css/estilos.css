@@ -33,10 +33,9 @@ header h1{
 	background-color: #82c3a6;
 }
 
-.imagencentro img{
-	padding: 3%;
+.imagencentro {
+	padding: 5%;
 	border-style: solid;
-	box-shadow: 5px 5px #02010a;
 	width: 700px;
 	height: auto;
 	margin-top: 15px;
@@ -151,7 +150,7 @@ footer .columna{
 	width: 100%;
 	flex-flow: wrap;
 	}
-	#container2 img{
+	.imagencentro {
 		width: 80%;
 	}
 	header navbar, header h1 {
