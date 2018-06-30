@@ -21,6 +21,7 @@ header h1{
 	color: white;
 	text-shadow: 2px 0px #02010a;
 	padding: 10px;
+	font-size: 50px;
 }
 .enlaces {
 	float: right;
